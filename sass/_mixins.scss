@@ -1,0 +1,58 @@
+// Center block
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 200px) {
+  h1,
+  h2,
+  h3,
+  p {
+    padding-left: 10px;
+  }
+  .siteinfo {
+    display: flex;
+    align-content: space-between;
+    flex-flow: row wrap;
+  }
+}
+@media screen and (min-width: 620px) {
+  h1,
+  h2,
+  h3,
+  h4
+   {
+    padding-left: 10px;
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
+  }
+  h1.quotesondev {
+    font-size: 48px;
+
+  }
+  h1.entry-title {
+    font-size: 16px;
+  }
+
+
+}
+
+@media screen and (min-width: 1080px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+  h1.quotesondev {
+    font-size: 16px
+  }
+p {
+  font-size: 20px;
+}
+
+}
