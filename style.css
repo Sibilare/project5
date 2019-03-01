@@ -190,25 +190,34 @@ table {
   h3,
   h4 {
     padding-left: 10px;
-    font-size: 24px; }
+    font-size: 1.5rem; }
   p {
-    font-size: 20px; }
+    font-size: 1.25rem; }
   h1.quotesondev {
-    font-size: 48px; }
+    font-size: 1.25rem; }
   h1.entry-title {
-    font-size: 16px; } }
+    font-size: 1rem; } }
 
 @media screen and (min-width: 1080px) {
   h1,
   h2,
   h3,
   h4 {
-    padding-left: 10px;
-    font-size: 16px; }
+    padding-left: 60px;
+    font-size: 1rem; }
   h1.quotesondev {
-    font-size: 16px; }
+    font-size: 4rem; }
+  .entry-content {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   p {
-    font-size: 20px; } }
+    padding-left: 60px;
+    font-size: 2.5rem; } }
 
 html {
   font-family: sans-serif;
@@ -377,6 +386,15 @@ legend {
 textarea {
   overflow: auto; }
 
+#show_me_another {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
@@ -400,7 +418,8 @@ textarea {
 /* Headings */
 h1, h2, h3, h4, h5, h6, p {
   clear: both;
-  color: #fff; }
+  color: #fff;
+  font-family: 'exo-webfont'; }
 
 /* Copy */
 p {

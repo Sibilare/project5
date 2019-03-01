@@ -21,23 +21,19 @@
   h1,
   h2,
   h3,
-  h4
-   {
+  h4 {
     padding-left: 10px;
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   h1.quotesondev {
-    font-size: 48px;
-
+    font-size: 1.25rem;
   }
   h1.entry-title {
-    font-size: 16px;
+    font-size: 1rem;
   }
-
-
 }
 
 @media screen and (min-width: 1080px) {
@@ -45,14 +41,21 @@
   h2,
   h3,
   h4 {
-    padding-left: 10px;
-    font-size: 16px;
+    padding-left: 60px;
+    font-size: 1rem;
   }
   h1.quotesondev {
-    font-size: 16px
-  }
-p {
-  font-size: 20px;
-}
+    font-size: 4rem;
 
+  }
+  .entry-content {
+    width: 50%;
+    display:flex;
+    justify-content: center
+  }
+  p {
+    padding-left: 60px;
+    font-size: 2.5rem;
+  
+  }
 }
